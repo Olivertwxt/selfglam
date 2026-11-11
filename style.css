@@ -595,3 +595,51 @@ p { margin-bottom: 14px; line-height: 1.5; }
   .coach-headline { font-size: 20px; }
   .cd-box span { font-size: 30px; }
 }
+
+/* ---------- Brunch date block (hero) ---------- */
+.brunch-block { margin-top: 40px; }
+.brunch-block h2 { text-align: center; color: var(--ink); }
+.brunch-sub { color: var(--ink-soft); font-size: 18px; text-align: center; }
+.brunch-sub b { color: var(--ink); letter-spacing: 0.3px; }
+
+/* ---------- Green tick list ---------- */
+.tick-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 0 0 14px 36px;
+}
+.tick-list li:last-child { padding-bottom: 0; }
+.tick-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 7px);
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #1E7F4E url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6.5 12.5l3.5 3.5 7.5-8' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 15px no-repeat;
+}
+.tick-list li:last-child::before { top: 50%; }
+
+/* ---------- Reviews under the hero ---------- */
+.hero-reviews { margin-top: 32px; text-align: left; }
+.hero-reviews .testi { box-shadow: 0 6px 20px rgba(46, 21, 8, 0.08); }
+
+/* ---------- What makes this class different ---------- */
+.card .card-goal {
+  margin: 22px 0 0;
+  padding: 20px;
+  border-left: 4px solid var(--pink);
+  background: var(--pink-05);
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--ink);
+}
+.card-goal em { font-style: normal; color: var(--pink); }
+
+.card .eyebrow { color: var(--pink); }
