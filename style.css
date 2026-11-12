@@ -657,3 +657,5 @@ p { margin-bottom: 14px; line-height: 1.5; }
 .mockup h2 em { color: #FF8A3D; }
 .mockup p { color: #FFE8D6; }
 .mockup p b { color: #fff; }
+
+.highlight { color: var(--pink); font-weight: 800; }
